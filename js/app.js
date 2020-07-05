@@ -8,7 +8,6 @@ for (recentProjectRow of recentProjectRows) {
 
 function showBiggerImage(event) {
     const image = event.target;
-    console.log(image);
 
     // create a copy from the image element
     const biggerImage = image.cloneNode(true);
