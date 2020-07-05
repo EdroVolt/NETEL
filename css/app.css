@@ -2,6 +2,19 @@ body {
   background-color: black;
 }
 
+.text-gray {
+  color: rgb(116, 116, 116);
+}
+
+.bg-orange {
+  background: orange;
+}
+
+.bg-blue {
+  background: blue;
+}
+
+
 .jumbotron {
   background: url("../img/header.jpg") no-repeat center center;
   background-size: cover;
@@ -19,12 +32,6 @@ body {
   margin-left: 35%;
   font-weight: 600;
 }
-/* 
-.content {
-  position: absolute;
-  left: 0;
-  top: 0;
-} */
 
 .navbar {
   height: 70px;
@@ -40,11 +47,6 @@ body {
   border-radius: 50%;
   display: inline-block;
 }
-
-/* .circle:before {
-  content: " \25CF";
-  font-size: 50px;
-} */
 
 .navbar-collapse,
 .navbar-nav {
@@ -63,6 +65,7 @@ body {
   width: 30%;
   padding: 20px;
 }
+
 .card-header {
   background: none;
   border: none;
@@ -86,4 +89,56 @@ body {
 .middile-section-content {
   background: rgb(24, 23, 23);
   height: 100%;
+}
+
+.footer {
+  background: rgb(24, 23, 23);
+  /* padding: 50px; */
+}
+
+footer h5 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+footer a {
+  color: rgb(116, 116, 116);
+}
+
+.copy-right {
+  background: black;
+}
+
+td:nth-child(odd) {
+  width: 50px;
+}
+
+tr {
+  height: 50px;
+}
+
+footer input {
+  background: none;
+  border: 1px solid white;
+  width: 70%;
+  padding-left: 10px;
+  color: white;
+  border-radius: 0;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
 }
