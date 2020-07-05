@@ -1,0 +1,34 @@
+{
+  "name": "netel",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdroVolt/NETEL.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "Edro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdroVolt/NETEL/issues"
+  },
+  "homepage": "https://github.com/EdroVolt/NETEL#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "lite-server": "^2.5.4"
+  }
+}

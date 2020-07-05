@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+}
+
+.jumbotron {
+  background: url("../img/header.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  margin-top: 55px;
+  height: 700px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.header-welcome {
+  margin-left: 35%;
+  font-weight: 600;
+}
+/* 
+.content {
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+
+.navbar {
+  height: 70px;
+  text-transform: uppercase;
+  background-color: rgb(24, 23, 23);
+  border-left: 7px solid #bc25d0;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: #bc25d0;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* .circle:before {
+  content: " \25CF";
+  font-size: 50px;
+} */
+
+.navbar-collapse,
+.navbar-nav {
+  height: 100%;
+}
+
+.active {
+  background: rgb(71, 71, 71);
+}
+
+.cards-section {
+  margin-top: 600px;
+}
+
+.card {
+  width: 30%;
+  padding: 20px;
+}
+.card-header {
+  background: none;
+  border: none;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+.middile-section,
+.recent-projects {
+  margin-top: 100px;
+}
+
+.middile-section-content {
+  background: rgb(24, 23, 23);
+  height: 100%;
+}
